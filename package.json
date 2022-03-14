@@ -1,0 +1,42 @@
+{
+  "name": "@blackwych/typedoc-plugin-display-inner-doc-comments-theme",
+  "version": "0.1.0",
+  "description": "TypeDoc plugin to display doc comments specified in type arguments with the default theme",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit && eslint --cache src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "rm -rf dist && npm run lint && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackwych/typedoc-plugin-display-inner-doc-comments-theme.git"
+  },
+  "keywords": [
+    "typedoc",
+    "typedocplugin",
+    "typedoc-theme"
+  ],
+  "author": "blackwych",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typedoc": "^0.22.13"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.179",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "bugs": {
+    "url": "https://github.com/blackwych/typedoc-plugin-display-inner-doc-comments-theme/issues"
+  },
+  "homepage": "https://github.com/blackwych/typedoc-plugin-display-inner-doc-comments-theme#readme"
+}
