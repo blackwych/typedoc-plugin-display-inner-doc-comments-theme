@@ -1,4 +1,4 @@
-@blackwych/typedoc-plugin-display-inner-doc comments-theme
+@blackwych/typedoc-plugin-display-inner-doc-comments-theme
 ==========================================================
 
 TypeDoc plugin to display doc comments specified in type arguments with the default theme
@@ -23,7 +23,7 @@ This plugin enables the default theme to display these inner doc comments traver
 ## Installation
 
 ```sh
-npm install -D @blackwych/typedoc-plugin-customized-default-theme
+npm install -D @blackwych/typedoc-plugin-display-inner-doc-comments-theme
 ```
 
 
